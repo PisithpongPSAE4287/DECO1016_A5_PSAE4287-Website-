@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pisithpong Saeung PSAE4287</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="donate.css" rel="stylesheet" type="text/css" />
+  <link href="phone.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="script.js"></script>
+</head>
+
+	<leftnav>
+    <a href="index.html#about">
+      <img alt="SloCo" src="https://slothconservation.b-cdn.net/wp-content/themes/sloth/images/logo.png">
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#sloths">Sloths</a></li>
+    <li><a href="index.html#news">News</a></li>
+    <li><a href="donate.html">Donate</a></li>
+	</leftnav>
+
+<body>
+
+<div class="container">
+  <div style="text-align:center">
+    <h1>Donation</h1>
+    <p>Donate Now and Make a Difference!</p>
+  </div>
+<div class="row">
+  <div class="column">
+    <img src="https://edge.alluremedia.com.au/uploads/businessinsider/2016/06/lake-house-1-b.jpg" alt="sloth cover image" style="width: 100%;"/>
+  </div>
+
+<div class="column">
+  <form action="/action_page.php">
+    <label for="firstname">First Name</label>
+      <input type="text" id="firstname" name="firstname" placeholder="Enter Your First name">
+    <label for="lastname">Last Name</label>
+      <input type="text" id="lastname" name="lastname" placeholder="Enter Your Last name">
+    <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="thailand">Thailand</option>
+        <option value="china">China</option>
+        <option value="others">Others</option>
+      </select>
+    <label for="gender">Gender</label>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="prefernottosay">Prefer Not to Say</option>
+      </select>
+    <label for="donationa">Donation Amount</label>
+      <select id="donationa" name="donationa">
+        <option value="ch">Choose Your Amount</option>
+        <option value="10">$10</option>
+        <option value="20">$20</option>
+        <option value="50">$50</option>
+        <option value="70">$70</option>
+        <option value="99">$99</option>
+      </select>
+    <label for="uploadreceipt">Upload Donation Receipt</label>
+      <form action="index.php" method"post" enctype="multipart/form-data">
+      <input type="file" name"file1"/></label><br><br>
+    <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Enter Your Email">
+    <label for="subject">Message</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+
+  <div class="sociallist">
+    <a href="https://www.facebook.com/SlothConservation/" class="facebook"><i class="fa fa-facebook"></i></a> 
+    <a href="https://twitter.com/slothcon" class="twitter"><i class="fa fa-twitter"></i></a> 
+    <a href="https://www.instagram.com/slothconservation/" class="instagram"><i class="fa fa-instagram"></i></a> 
+    <a href="https://www.youtube.com/channel/UCZSoI072uc-gQTxFTowkGvQ" class="youtube"><i class="fa fa-youtube"></i></a>
+    <a href="mailto:contact@slothconservation.org" class="envelope"><i class="fa fa-envelope"></i></a>
+  </div>
+
+</html>
